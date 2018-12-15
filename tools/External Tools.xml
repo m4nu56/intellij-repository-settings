@@ -1,0 +1,30 @@
+<toolSet name="External Tools">
+  <tool name="dump structure" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files\PostgreSQL\9.6\bin\pg_dump.exe" />
+      <option name="PARAMETERS" value="--dbname=contrevisite --host=localhost --port=5432 --username=&quot;postgres&quot; --no-password --format=plain --schema-only --schema=public --verbose --file=&quot;C:\Users\m4nu5\Projects\contre-visite\cv_metier\src\main\resources\release\postgresql\create_schema_public_structure.sql&quot;" />
+      <option name="WORKING_DIRECTORY" value="C:/Program Files/PostgreSQL/9.6/bin" />
+    </exec>
+  </tool>
+  <tool name="dump structure public urasig" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files\PostgreSQL\9.6\bin\pg_dump.exe" />
+      <option name="PARAMETERS" value="--dbname=urasig --host=localhost --port=5432 --username=&quot;postgres&quot; --no-password --format=plain --schema-only --schema=public --verbose --file=&quot;C:\Users\m4nu5\Projects\urasig\ura_metier\src\main\resources\release\create_schema_public_structure.sql&quot;" />
+      <option name="WORKING_DIRECTORY" value="C:/Program Files/PostgreSQL/9.6/bin" />
+    </exec>
+  </tool>
+  <tool name="dump structure compte urasig" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files\PostgreSQL\9.6\bin\pg_dump.exe" />
+      <option name="PARAMETERS" value="--dbname=urasig --host=localhost --port=5432 --username=&quot;postgres&quot; --no-password --format=plain --schema-only --schema=tiger --verbose --file=&quot;C:\Users\m4nu5\Projects\urasig\ura_metier\src\main\resources\release\create_schema_compte_structure.sql&quot;" />
+      <option name="WORKING_DIRECTORY" value="C:/Program Files/PostgreSQL/9.6/bin" />
+    </exec>
+  </tool>
+  <tool name="dump structure compte_data urasig" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files\PostgreSQL\9.6\bin\pg_dump.exe" />
+      <option name="PARAMETERS" value="--dbname=urasig --host=localhost --port=5432 --username=&quot;postgres&quot; --no-password --format=plain --schema-only --schema=tiger_data --verbose --file=&quot;C:\Users\m4nu5\Projects\urasig\ura_metier\src\main\resources\release\create_schema_compte_data_structure.sql&quot;" />
+      <option name="WORKING_DIRECTORY" value="C:/Program Files/PostgreSQL/9.6/bin" />
+    </exec>
+  </tool>
+</toolSet>

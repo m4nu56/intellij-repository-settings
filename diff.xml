@@ -1,0 +1,20 @@
+<application>
+  <component name="SvnDiffSettings">
+    <option name="PLACES_MAP">
+      <entry key="Default">
+        <PlaceSettings>
+          <option name="SPLITTER_PROPORTION" value="0.5841709" />
+        </PlaceSettings>
+      </entry>
+    </option>
+  </component>
+  <component name="TextDiffSettings">
+    <option name="PLACES_MAP">
+      <entry key="Default">
+        <PlaceSettings>
+          <option name="EXPAND_BY_DEFAULT" value="false" />
+        </PlaceSettings>
+      </entry>
+    </option>
+  </component>
+</application>

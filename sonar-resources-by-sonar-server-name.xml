@@ -1,0 +1,44 @@
+<application>
+  <component name="sonar-resources-application-component">
+    <option name="sonarResourcesBySonarServerName">
+      <map>
+        <entry key="sonar">
+          <value>
+            <list>
+              <Resource>
+                <option name="key" value="com.dev10:contre-visite" />
+                <option name="name" value="contrevisite" />
+                <option name="qualifier" value="TRK" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com.web:cvisite" />
+                <option name="name" value="Contre Visite - Application web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com.dev10:_dev10_model" />
+                <option name="name" value="_dev10_model" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com.dev10:_dev10_web" />
+                <option name="name" value="_dev10_web" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com:automate" />
+                <option name="name" value="automate" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+              <Resource>
+                <option name="key" value="com.metier:cv_metier" />
+                <option name="name" value="cv_metier" />
+                <option name="qualifier" value="BRC" />
+              </Resource>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
