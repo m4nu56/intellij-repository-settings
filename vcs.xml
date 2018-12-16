@@ -38,6 +38,10 @@
           <option name="url" value="https://gitlab.seldon-finance.com/interne-seldon/hanami.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.seldon-finance.com" />
+          <option name="userName" value="ebalpe" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\m4nu5\Projects" />
